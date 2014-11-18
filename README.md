@@ -20,7 +20,7 @@ There are a lot of files in the linker/styles because I copied and pasted this p
 I've setup an inheritance between my own files and bootstrap, so I am able to override bootstrap classes and extends them, as well as for font-awesome.
 
 ## LESS
-I configured LESS for the project using `WebStorm` IDE, just added a watcher to compile LESS files within the project on file change.
+I configured LESS for the project using `WebStorm` IDE, just added a watcher to compile LESS files within the project on file change. (Excepted the `assets/less` folder which contains libraries that we don't need to compile).
 
 The `.gitattributes` file is here to force git to use `LF` line separator whatever the your environment is, it's because LESS always compile in *LF*, whatever the git config is.
 So it mess up git if you're using *CLRF* (Windows) because it flags files as modified that aren't.
