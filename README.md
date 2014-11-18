@@ -1,5 +1,24 @@
 # sails-dynamic-assets
 
+I have decided to not use the sails default importer. Mostly because I find it bad, too much based on configuration over convention. So I have made my own dynamic assets loader based on convention over configuration.
+
+Basically, in mine, there is nothing more to do, the assets will be applied based on the controller, controller action, theme and layout used.
+
+I use LESS, but I decided to make it *convention over configuration*. I don't need to manually call each LESS asset like in the sails `importer.less`.
+
+Interesting files to look at:
+
+- views/_layouts/default.ejs
+- views/_layouts/_partials/_body.ejs
+- assets/linker/styles/themes/default.less
+- assets/linker/styles/layouts/default.less
+- assets/linker/styles/common/buttons.less
+- assets/linker/styles/views/home.less
+- assets/linker/styles/views/user.less
+
+There are a lot of files in the linker/styles because I copied and pasted this project from a real one, you can take a look at all of them if you want.
+I've setup an inheritance between my own files and bootstrap, so I am able to override bootstrap classes and extends them, as well as for font-awesome.
+
 ## LESS
 I configured LESS for the project using `WebStorm` IDE, just added a watcher to compile LESS files within the project on file change.
 
