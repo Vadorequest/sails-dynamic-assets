@@ -1,0 +1,147 @@
+@import "../../../linker/styles/loader";
+
+form {
+  input[type="submit"] {
+    font-family: FontAwesome; // Allow to use font-awesome icons. See: https://stackoverflow.com/questions/15988373/how-do-i-add-a-font-awesome-icon-to-input-field
+    -webkit-appearance: button;
+  }
+
+  abbr[title], abbr[data-original-title] {
+    color: red;
+    font-size: 1.214em; //17px
+    font-weight: normal;
+    border:none;
+  }
+
+  input[type="file"] {
+    max-width: 280px;
+  }
+
+  .has-feedback {
+    .form-control-feedback {
+      top: 0px; // Align the validation icon with the input.
+    }
+  }
+
+  // Bootstrap class that must be applied to all labels inside a form. Done automatically by simple_form.
+  .control-label {
+    margin-bottom: 2px;
+    color: @orange;
+  }
+
+  // Used when there is a validation error on an input.
+  .help-block {
+    margin-bottom: 0px;
+
+    &:before {
+      &:extend(.fa);
+      content: @fa-var-exclamation-triangle;
+      margin-right: 5px; // Acts like a space, no need of extra html markup or javascript.
+    }
+  }
+
+  /*
+  * Change dropdown select.
+  */
+  .dropdown_select {
+    background: transparent;
+    padding: 5px;
+    line-height: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+  }
+
+  /*
+  * Change checkboxes style.
+  */
+  .checkbox {
+    // The real input is hidden, and a box is used instead to use a custom style.
+    input[type=checkbox] {
+      visibility: hidden;
+    }
+
+    // Label linked to the hidden checkbox.
+    label {
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+      padding-left: 25px;
+      margin-right: 15px;
+      font-size: 13px;
+
+      // Before the checkbox we add a fake checkbox that looks like a checkbox.
+      &:before {
+        .border-radius(3px);
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        background-color: white;
+        border: 1px solid @gray-light;
+      }
+    }
+
+    // When the input is checked, apply color and icon.
+    input[type=checkbox]:checked + label:before,
+    input[type=checkbox]:checked + .control-label > label:before {
+      &:extend(.fa);
+      &:extend(.fa-check);
+      font-size: 15px;
+      color: @green-check;
+      text-align: center;
+      line-height: 15px;
+    }
+  }
+
+  /*
+ * Change radio style.
+ */
+  .radio label:before {
+    border-radius: 8px;
+  }
+
+  .radio {
+    input[type=radio] {
+      display: none;
+    }
+
+    label {
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+      padding-left: 25px;
+      margin-right: 15px;
+      font-size: 13px;
+
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        border: 1px solid @gray-light;
+      }
+    }
+
+    input[type=radio]:checked + label:before,
+    input[type=radio]:checked + .control-label > label:before  {
+      content: "\2022";
+      color: @green-check;
+      font-size: 24px;
+      display: block;
+      margin: 0 auto;
+      line-height: 10px;
+    }
+  }
+}

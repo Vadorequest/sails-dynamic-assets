@@ -1,0 +1,10 @@
+<% /* Display all messages */ %>
+<% /* Example from the controller: */ %>
+<% /* req.flash('messages', {message: options.title, type: 'success', placement: {from: 'bottom'}}); */ %>
+<script type="text/javascript">
+    $(function(){
+        <% _.each(messages, function(message){ %>
+          notification('<%= message.message%>', <%- JSON.stringify(message.options)%>);
+        <%})%>
+    });
+</script>

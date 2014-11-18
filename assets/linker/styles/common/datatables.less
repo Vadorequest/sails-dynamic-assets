@@ -1,0 +1,141 @@
+@import "../../../linker/styles/loader";
+
+// Import specific dependencies.
+@import '../../../less/bootstrap/tables';
+
+table.datatable {
+  &:extend(.table);
+  &:extend(.table-striped);
+  &:extend(.table-hover);
+  margin-top: 0 !important;
+
+  thead {
+    background-color: @gray-thead;
+    //    font-family: @font-family-lato;
+    font-weight: bold;
+
+    tr {
+      th {
+        padding: 15px 8px;
+        color:@white;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      &:hover {
+        td {
+          background-color: transparent;
+        }
+      }
+
+      td {
+        padding: 15px 8px;
+        border-left: 1px solid @gray-table-stroke;
+        color: @gray-table-font-color;
+        //        font-family: @font-family-lato;
+
+        a {
+          color: @gray-table-font-color;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .odd {
+      background-color: @gray-odd;
+    }
+
+    .even {
+      background-color: @white;
+    }
+  }
+
+  tfoot {
+    background-color: @gray-dark;
+  }
+}
+
+table.DTFC_Cloned tfoot {
+  background-color: @gray-dark;
+}
+
+.dataTables_paginate {
+  width: 100%;
+
+  .pagination {
+    li {
+      a {
+        .border-radius(4px);
+        color: @gray-table-font-color;
+        font-size: 0.857em; //12px
+        padding: 4px 10px;
+        margin: 2px;
+        background-color: @gray-lighter;
+
+        &:hover {
+          background-color: @white;
+          color: black;
+        }
+      }
+    }
+
+    li.active {
+      a {
+        background-color: transparent;
+        border:none;
+        color: @gray-table-font-color;
+      }
+    }
+
+    li.disabled {
+      a {
+        background-color: @gray-light;
+
+        &:hover {
+          color: @gray-table-font-color;
+        }
+      }
+    }
+
+    li.prev {
+      a {
+        margin-right: 8px;
+      }
+    }
+
+    li.next {
+      a {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
+.row {
+  .dataTables_length {
+    color: gray;
+  }
+
+  .dataTables_info {
+    color: gray;
+  }
+}
+
+// Screen-mobile-datatable
+// --------------------------------------------------
+@media screen and (max-width: 768px) {
+  .row {
+    .dataTables_info {
+      display:none;
+    }
+  }
+
+  .row:last-child {
+
+    .col-xs-6:last-child {
+      width: 100%;
+    }
+  }
+}

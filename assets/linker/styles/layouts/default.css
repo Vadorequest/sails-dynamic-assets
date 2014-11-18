@@ -1,0 +1,290 @@
+html,
+body.layout_default {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body.layout_default #global {
+  height: 100%;
+  position: relative;
+  z-index: 1000;
+}
+body.layout_default #global #main {
+  height: calc(100% - 51px);
+  overflow: hidden;
+  overflow-y: auto;
+  clear: both;
+}
+body.layout_default #global #main .container {
+  height: 100%;
+  padding: 0;
+}
+body.layout_default #global > header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  z-index: 1000;
+}
+body.layout_default #global > header > div.navbar-header {
+  height: 50px;
+  overflow: hidden;
+}
+body.layout_default #global > header > div.navbar-collapse ul.navbar-nav {
+  margin: 0 -15px;
+}
+body.layout_default #global > header > div.navbar-left input,
+body.layout_default #global > header > div.navbar-right input {
+  min-width: 165px;
+  width: 55%;
+  height: 30px;
+  margin-left: 15px;
+  display: inline-block;
+}
+body.layout_default #global > header > div.navbar-left #link_search.searched {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 768px) {
+  body.layout_default #global > header > div.navbar-left #link_search.searched {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  body.layout_default #global > header > div.navbar-right #link_account {
+    font-size: 14px !important;
+    padding: 15px !important;
+  }
+}
+body.layout_default #global > header > div.navbar-right ul li #link_account {
+  padding: 10px 20px;
+}
+body.layout_default #global > header a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+body.layout_default #global > header #return_home,
+body.layout_default #global > header button.navbar-toggle {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+}
+body.layout_default #global > header a.navbar-brand {
+  margin-left: 0;
+  display: inline-block;
+  overflow: hidden;
+}
+body.layout_default #left_navigation,
+body.layout_default #left_navigation ul li ul {
+  width: 230px;
+}
+body.layout_default #left_navigation {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: width 0.4s ease-in-out;
+  -moz-transition: width 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+body.layout_default #left_navigation ul {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body.layout_default #left_navigation ul li ul {
+  top: 0;
+  left: 230px;
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+body.layout_default #left_navigation ul li ul li:first-child {
+  height: 50px;
+  position: relative;
+}
+body.layout_default #left_navigation ul li ul li:first-child a {
+  height: 100%;
+  padding-left: 50px;
+}
+body.layout_default #left_navigation ul li ul li span.sup {
+  width: 50px;
+  height: 100%;
+  top: 0;
+  left: 5px;
+  position: absolute;
+}
+body.layout_default #left_navigation ul li ul li span.sup:before {
+  content: "";
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: none;
+  border-left: none;
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  bottom: 40%;
+  right: 45%;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+body.layout_default #left_navigation ul li ul.active {
+  left: 0;
+  z-index: 1;
+}
+body.layout_default #left_navigation ul li a {
+  height: 100%;
+  padding: 0 0 0 20px;
+  line-height: 50px;
+  display: block;
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+body.layout_default #left_navigation ul li a i {
+  width: 0%;
+  height: 50px;
+  line-height: 50px !important;
+  margin-right: 15%;
+  float: left;
+}
+body.layout_default #left_navigation ul li a span.sub {
+  width: 25%;
+  height: 50px;
+  position: relative;
+  display: block;
+  float: left;
+}
+body.layout_default #left_navigation ul li a span:not(.sub) {
+  width: 60%;
+  float: left;
+  display: block;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+body.layout_default #left_navigation ul li a span.sub:before {
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  display: block;
+}
+body.layout_default #left_navigation ul li a span.sub:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 40%;
+  right: 40%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+body.layout_default #left_navigation ul li a:not(.sup):after {
+  content: "";
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  float: left;
+  position: relative;
+  display: block;
+}
+body.layout_default #left_navigation > li {
+  position: relative;
+}
+body.layout_default #left_navigation li {
+  max-width: 230px;
+  height: 50px;
+  list-style: none;
+  clear: both;
+}
+body.layout_default #left_navigation > ul > li > ul > li:not(:first-child) > span.sup:after {
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  display: block;
+}
+body.layout_default #left_navigation a.pointer-events {
+  pointer-events: none;
+}
+body.layout_default #left_navigation.resize {
+  width: 75px;
+}
+body.layout_default #left_navigation.resize ul li ul {
+  width: 75px;
+}
+body.layout_default #left_navigation.resize ul li a span.sub {
+  width: 60%;
+}
+body.layout_default #left_navigation.resize ul li a span:not(.sub) {
+  width: 25%;
+  opacity: 0;
+}
+body.layout_default #left_navigation.responsive {
+  width: 55px !important;
+}
+body.layout_default div.panel.authentication {
+  min-height: 350px;
+  height: 350px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: auto;
+  position: absolute;
+  z-index: 1070;
+  display: none;
+}
+body.layout_default div.panel.authentication > form {
+  padding: 10px 20px;
+}
+body.layout_default div.panel.authentication:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+.pointer {
+  cursor: pointer;
+}
+.inline-b {
+  display: inline-block;
+}

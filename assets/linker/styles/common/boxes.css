@@ -1,0 +1,129 @@
+.well,
+.box,
+.box_lg,
+.box_sm,
+.box_panel,
+.box_minus_border {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.well-lg,
+.box_lg {
+  padding: 24px;
+  border-radius: 6px;
+}
+.well-sm,
+.box_sm {
+  padding: 9px;
+  border-radius: 3px;
+}
+/*
+* Box used to display some kind of sub content.
+* Main class that define the way default boxes should appear.
+*/
+.box,
+.box_lg,
+.box_sm,
+.box_panel,
+.box_minus_border {
+  margin-bottom: 13px;
+  padding: 7px 10px 10px 10px;
+  background-color: #fafafc;
+  border: 1px solid #ededed;
+  box-shadow: none;
+}
+.box .header .fa {
+  font-size: 1.3em;
+  padding-right: 10px;
+}
+.box .header .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.box .header hr {
+  margin-top: 10px;
+}
+/*
+* Box sizes.
+*/
+.box_black {
+  /* Firefox */
+  /* Safari, Chrome */
+  /* CSS3 */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid black;
+  background-color: #fafafc;
+}
+.box_black .header {
+  -moz-border-top-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-top-right-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.3);
+  background-color: black;
+  color: #ffffff;
+  padding: 7px 10px 10px 10px;
+  /*.visibility_icon {
+      float: right;
+      padding-right: 5px;
+      padding-top: 5px;
+      font-size: 0.9em;
+    }*/
+}
+.box_black .header hr {
+  display: none;
+}
+.box_black .header .fa {
+  font-size: 1.3em;
+  padding-right: 10px;
+}
+.box_black .header .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.box_black .content {
+  padding: 7px 10px 10px 10px;
+}
+/*
+* A box that looks like a panel. To use on a grey/black background.
+*/
+.box_panel {
+  background-color: #ffffff;
+}
+/*
+* A box that doesn't have a border. To use on a transparent background.
+*/
+.box_minus_border {
+  background-color: transparent;
+  border: none;
+}
+.box_minus_border .header hr {
+  margin-top: 5px;
+  color: #cccccc;
+}
+.box_minus_border .header .title {
+  font-weight: bolder;
+  color: #363f43;
+  font-family: 'Montserrat', sans-serif;
+}

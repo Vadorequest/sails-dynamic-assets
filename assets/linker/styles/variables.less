@@ -1,0 +1,151 @@
+// OPERATIONS
+@base : 100%;
+@half : (@base / 2);
+
+// Fonts.
+@font-family-montserrat: 'Montserrat', sans-serif;
+@font-family-lato: 'Lato', sans-serif;
+@font-family-helvetica:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Colors
+// -------------------------
+// Oranges
+@orange-darker:   #e64d00;
+@orange-dark:     lighten(#e64d00, 5%);
+@orange:          #fc7001;
+@orange-light:    #FF7732;
+@orange-lighter:  lighten(#FF7732, 3%);
+
+// Grays
+@gray-darker:     #363f43;
+@gray-dark:       #48575f;
+@gray:            #2E2E2E;
+@gray-light:      #cccccc;
+@gray-lighter:    #f2f2f2;
+
+// Tables Gray
+@gray-thead:     #52636c;
+@gray-odd:       #fbfafc;
+@gray-table-stroke: #dddddd;
+@gray-table-font-color: #515c5e;
+
+//Subpage background color gray
+@subpage_background_color: #f8f8f8;
+@app_pages_background_color:#e8e8e8;
+
+//<p> text gray
+@text_gray: #636161;
+
+//Page headline text gray
+@headline_gray: #666666;
+
+// Whites
+@white-dark:      #f5f5f5;
+@white:           #ffffff;
+
+// Greens
+@green:           #009245;
+@green-light:     #009F4B;
+@green-lighter:   #1fb601;
+
+//Green color used for checkmarks
+@green-check: #009F4B;
+// Green color for menu
+@green-menu: #0F8A62;
+
+// Black
+@black: #000000;
+
+// Red
+@red: #FF3531;
+
+// Delete Red
+@delete_red: #CA0E0E;
+
+// Blue
+@blue-lighter: #09a0ca;
+
+// Match
+@match: #3e81c3;
+
+// Meetup
+@meetup: #e6391f;
+
+// Meeting
+@meeting: #57356a;
+
+// Social
+@social: #ffe603;
+
+// training
+@training: #40ab3c;
+
+// Media queries breakpoints
+@screen-xs:                  480px;
+@screen-xs-min:              @screen-xs;
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+@screen-lg-desktop:          @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
+
+// Height of the header_block inside the popups.
+@popup_header_height:         60px;
+
+// Dark greys alpha
+@dark-grey-005: rgba(0, 0, 0, 0.05);
+@dark-grey-01: rgba(0, 0, 0, 0.1);
+@dark-grey-015: rgba(0, 0, 0, 0.15);
+@dark-grey-02: rgba(0, 0, 0, 0.2);
+@dark-grey-03: rgba(0, 0, 0, 0.3);
+@dark-grey-04: rgba(0, 0, 0, 0.4);
+@dark-grey-05: rgba(0, 0, 0, 0.5);
+@dark-grey-06: rgba(0, 0, 0, 0.6);
+@dark-grey-07: rgba(0, 0, 0, 0.7);
+@dark-grey-08: rgba(0, 0, 0, 0.8);
+@dark-grey-09: rgba(0, 0, 0, 0.9);
+
+// Light greys alpha
+@light-grey-005: rgba(255, 255, 255, 0.05);
+@light-grey-01: rgba(255, 255, 255, 0.1);
+@light-grey-02: rgba(255, 255, 255, 0.2);
+@light-grey-03: rgba(255, 255, 255, 0.3);
+@light-grey-04: rgba(255, 255, 255, 0.4);
+@light-grey-05: rgba(255, 255, 255, 0.5);
+@light-grey-06: rgba(255, 255, 255, 0.6);
+@light-grey-07: rgba(255, 255, 255, 0.7);
+@light-grey-08: rgba(255, 255, 255, 0.8);
+@light-grey-09: rgba(255, 255, 255, 0.9);
+
+// Greys background
+@grey-2E: #2E2E2E;
+@grey-38: #383838;
+
+// Override application's colors for differents states | red - blue - green
+@ov-danger-app: #B22222;
+@ov-danger-light-app: #FF2D2D;
+@ov-info-app: #0F688A;
+@ov-info-light-app: #1499B8;
+@ov-success-app: @green-menu;
+@ov-success-light-app: #07C486;
+@ov-warning-app: #C69339;
+@ov-warning-light-app: #FFCA6E;
+
+// Transparent
+@transparent: transparent;

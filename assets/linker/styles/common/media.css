@@ -1,0 +1,20 @@
+@media (min-width: 1400px) {
+  #main > section.container {
+    width: 1370px;
+  }
+}
+@media (min-width: 1600px) {
+  #main > section.container {
+    width: 1570px;
+  }
+}
+@media (min-width: 1920px) {
+  #main > section.container {
+    width: 1890px;
+  }
+}
+@media (min-width: 2276px) {
+  #main > section.container {
+    width: 2246px;
+  }
+}

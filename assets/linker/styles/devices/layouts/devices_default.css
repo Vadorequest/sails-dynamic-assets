@@ -1,0 +1,10 @@
+@media (max-width: 490px) {
+  .hidden-xxs {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .visible-xs-inline {
+    display: inline-block !important;
+  }
+}

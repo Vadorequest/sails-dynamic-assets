@@ -1,0 +1,339 @@
+@import "../../../linker/styles/loader";
+
+// Import specific dependencies.
+@import '../../../less/bootstrap/buttons';
+
+// Create our classes that extend the bootstrap .btn* classes. Use underscore as separator.
+// Basically extends the .btn and btn-* class to avoid to have to repeat it.
+.btn {
+  text-align: center;
+
+  &:before {
+    .fa();
+    margin-right: 5px; // Acts like a space, no need of extra html markup or javascript.
+  }
+
+  &:after {
+    .fa();
+    margin-left: 5px; // Acts like a space, no need of extra html markup or javascript.
+  }
+}
+
+// Btn sizes.
+.btn_xs {
+  &:extend(.btn-xs);
+}
+
+.btn_sm {
+  &:extend(.btn-sm);
+}
+
+.btn_lg {
+  &:extend(.btn-lg);
+}
+
+.btn_default {
+  &:extend(.btn all);
+  &:extend(.btn-default);
+}
+
+.btn_primary {
+  &:extend(.btn all);
+  &:extend(.btn-primary);
+  .border-radius(4px);
+  margin: 0 auto;
+  color: @white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 10px auto;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+
+  &:hover {
+    color: @white;
+    text-decoration: none;
+    border: 1px solid @orange;
+  }
+
+  &.disabled {
+    border: 1px solid @orange;
+  }
+}
+
+.btn_success {
+  &:extend(.btn all);
+  &:extend(.btn-success);
+  .border-radius(4px);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+  color: @white;
+  text-align: center;
+  border: 1px solid #199900;
+}
+
+.btn_info {
+  &:extend(.btn all);
+  &:extend(.btn-info);
+}
+
+.btn_warning {
+  &:extend(.btn all);
+  &:extend(.btn-warning);
+}
+
+.btn_danger {
+  &:extend(.btn all);
+  &:extend(.btn-danger);
+}
+
+// Buttons that are used in the form navigation.
+.btn_cancel, .btn_close {
+  &:extend(.btn all);
+  background-color: @gray-lighter;
+  border: 1px solid @gray-light;
+  color: @text-color;
+
+  &:before {
+    content: @fa-var-times;
+  }
+}
+
+.btn_previous {
+  &:extend(.btn_default);
+
+  &:before {
+    content: @fa-var-long-arrow-left;
+  }
+}
+
+.btn_next {
+  &:extend(.btn_default);
+
+  &:after {
+    content: @fa-var-long-arrow-right;
+  }
+}
+
+.btn_refresh, .btn_toggle {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-refresh;
+  }
+}
+// Helpers that use the btn_primary style.
+.btn_add {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-plus-circle;
+  }
+}
+
+.btn_add_comment {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-comment;
+  }
+}
+
+.btn_attachment {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-paperclip;
+  }
+}
+
+.btn_arrow_left {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-long-arrow-left;
+    font-weight: bold;
+  }
+}
+
+.btn_arrow_right {
+  &:extend(.btn_primary);
+
+  &:after {
+    content: @fa-var-long-arrow-right;
+    font-weight: bold;
+  }
+}
+
+.btn_calendar {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-calendar;
+  }
+}
+
+.btn_create {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-check;
+  }
+}
+
+.btn_create_pics {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-picture-o;
+  }
+}
+
+.btn_delete {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-minus-circle;
+  }
+}
+
+.btn_display, .btn_display_all {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-eye;
+  }
+}
+
+.btn_driving {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-car;
+  }
+}
+
+.btn_dropbox {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-dropbox;
+  }
+}
+
+.btn_edit {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-pencil;
+  }
+}
+
+.btn_email {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-envelope;
+  }
+}
+
+.btn_forum {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-comments-o;
+  }
+}
+
+.btn_hide, .btn_hide_all {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-eye-slash;
+  }
+}
+
+.btn_inbox {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-inbox;
+  }
+}
+
+.btn_list {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-list;
+  }
+}
+
+.btn_note {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-pencil-square-o;
+  }
+}
+
+.btn_update {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-pencil;
+  }
+}
+
+.btn_reminder {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-bell;
+  }
+}
+
+.btn_save {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-floppy-o;
+  }
+}
+
+.btn_send {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-send;
+  }
+}
+
+.btn_upload {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-upload;
+  }
+}
+
+.btn_user {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-user;
+  }
+}
+
+.btn_users {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-users;
+  }
+}
+
+.btn_waiting {
+  &:extend(.btn_primary);
+
+  &:before {
+    content: @fa-var-sort-amount-asc;
+  }
+}

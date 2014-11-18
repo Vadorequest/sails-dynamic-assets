@@ -1,0 +1,3 @@
+# Mobile - Common
+
+Used to override `../common/` scripts for mobiles. Must use `@media screen and (min-width: 768px) and (max-width: 1199px)`.

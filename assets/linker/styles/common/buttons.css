@@ -1,0 +1,1375 @@
+.btn,
+.btn_default,
+.btn_primary,
+.btn_success,
+.btn_info,
+.btn_warning,
+.btn_danger,
+.btn_cancel,
+.btn_close,
+.btn_previous,
+.btn_next,
+.btn_refresh,
+.btn_toggle,
+.btn_add,
+.btn_add_comment,
+.btn_attachment,
+.btn_arrow_left,
+.btn_arrow_right,
+.btn_calendar,
+.btn_create,
+.btn_create_pics,
+.btn_delete,
+.btn_display,
+.btn_display_all,
+.btn_driving,
+.btn_dropbox,
+.btn_edit,
+.btn_email,
+.btn_forum,
+.btn_hide,
+.btn_hide_all,
+.btn_inbox,
+.btn_list,
+.btn_note,
+.btn_update,
+.btn_reminder,
+.btn_save,
+.btn_send,
+.btn_upload,
+.btn_user,
+.btn_users,
+.btn_waiting {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+.btn_default:focus,
+.btn_default:active:focus,
+.btn_default.active:focus,
+.btn_default.focus,
+.btn_default:active.focus,
+.btn_default.active.focus,
+.btn_primary:focus,
+.btn_primary:active:focus,
+.btn_primary.active:focus,
+.btn_primary.focus,
+.btn_primary:active.focus,
+.btn_primary.active.focus,
+.btn_success:focus,
+.btn_success:active:focus,
+.btn_success.active:focus,
+.btn_success.focus,
+.btn_success:active.focus,
+.btn_success.active.focus,
+.btn_info:focus,
+.btn_info:active:focus,
+.btn_info.active:focus,
+.btn_info.focus,
+.btn_info:active.focus,
+.btn_info.active.focus,
+.btn_warning:focus,
+.btn_warning:active:focus,
+.btn_warning.active:focus,
+.btn_warning.focus,
+.btn_warning:active.focus,
+.btn_warning.active.focus,
+.btn_danger:focus,
+.btn_danger:active:focus,
+.btn_danger.active:focus,
+.btn_danger.focus,
+.btn_danger:active.focus,
+.btn_danger.active.focus,
+.btn_cancel:focus,
+.btn_cancel:active:focus,
+.btn_cancel.active:focus,
+.btn_cancel.focus,
+.btn_cancel:active.focus,
+.btn_cancel.active.focus,
+.btn_close:focus,
+.btn_close:active:focus,
+.btn_close.active:focus,
+.btn_close.focus,
+.btn_close:active.focus,
+.btn_close.active.focus,
+.btn_previous:focus,
+.btn_previous:active:focus,
+.btn_previous.active:focus,
+.btn_previous.focus,
+.btn_previous:active.focus,
+.btn_previous.active.focus,
+.btn_next:focus,
+.btn_next:active:focus,
+.btn_next.active:focus,
+.btn_next.focus,
+.btn_next:active.focus,
+.btn_next.active.focus,
+.btn_refresh:focus,
+.btn_refresh:active:focus,
+.btn_refresh.active:focus,
+.btn_refresh.focus,
+.btn_refresh:active.focus,
+.btn_refresh.active.focus,
+.btn_toggle:focus,
+.btn_toggle:active:focus,
+.btn_toggle.active:focus,
+.btn_toggle.focus,
+.btn_toggle:active.focus,
+.btn_toggle.active.focus,
+.btn_add:focus,
+.btn_add:active:focus,
+.btn_add.active:focus,
+.btn_add.focus,
+.btn_add:active.focus,
+.btn_add.active.focus,
+.btn_add_comment:focus,
+.btn_add_comment:active:focus,
+.btn_add_comment.active:focus,
+.btn_add_comment.focus,
+.btn_add_comment:active.focus,
+.btn_add_comment.active.focus,
+.btn_attachment:focus,
+.btn_attachment:active:focus,
+.btn_attachment.active:focus,
+.btn_attachment.focus,
+.btn_attachment:active.focus,
+.btn_attachment.active.focus,
+.btn_arrow_left:focus,
+.btn_arrow_left:active:focus,
+.btn_arrow_left.active:focus,
+.btn_arrow_left.focus,
+.btn_arrow_left:active.focus,
+.btn_arrow_left.active.focus,
+.btn_arrow_right:focus,
+.btn_arrow_right:active:focus,
+.btn_arrow_right.active:focus,
+.btn_arrow_right.focus,
+.btn_arrow_right:active.focus,
+.btn_arrow_right.active.focus,
+.btn_calendar:focus,
+.btn_calendar:active:focus,
+.btn_calendar.active:focus,
+.btn_calendar.focus,
+.btn_calendar:active.focus,
+.btn_calendar.active.focus,
+.btn_create:focus,
+.btn_create:active:focus,
+.btn_create.active:focus,
+.btn_create.focus,
+.btn_create:active.focus,
+.btn_create.active.focus,
+.btn_create_pics:focus,
+.btn_create_pics:active:focus,
+.btn_create_pics.active:focus,
+.btn_create_pics.focus,
+.btn_create_pics:active.focus,
+.btn_create_pics.active.focus,
+.btn_delete:focus,
+.btn_delete:active:focus,
+.btn_delete.active:focus,
+.btn_delete.focus,
+.btn_delete:active.focus,
+.btn_delete.active.focus,
+.btn_display:focus,
+.btn_display:active:focus,
+.btn_display.active:focus,
+.btn_display.focus,
+.btn_display:active.focus,
+.btn_display.active.focus,
+.btn_display_all:focus,
+.btn_display_all:active:focus,
+.btn_display_all.active:focus,
+.btn_display_all.focus,
+.btn_display_all:active.focus,
+.btn_display_all.active.focus,
+.btn_driving:focus,
+.btn_driving:active:focus,
+.btn_driving.active:focus,
+.btn_driving.focus,
+.btn_driving:active.focus,
+.btn_driving.active.focus,
+.btn_dropbox:focus,
+.btn_dropbox:active:focus,
+.btn_dropbox.active:focus,
+.btn_dropbox.focus,
+.btn_dropbox:active.focus,
+.btn_dropbox.active.focus,
+.btn_edit:focus,
+.btn_edit:active:focus,
+.btn_edit.active:focus,
+.btn_edit.focus,
+.btn_edit:active.focus,
+.btn_edit.active.focus,
+.btn_email:focus,
+.btn_email:active:focus,
+.btn_email.active:focus,
+.btn_email.focus,
+.btn_email:active.focus,
+.btn_email.active.focus,
+.btn_forum:focus,
+.btn_forum:active:focus,
+.btn_forum.active:focus,
+.btn_forum.focus,
+.btn_forum:active.focus,
+.btn_forum.active.focus,
+.btn_hide:focus,
+.btn_hide:active:focus,
+.btn_hide.active:focus,
+.btn_hide.focus,
+.btn_hide:active.focus,
+.btn_hide.active.focus,
+.btn_hide_all:focus,
+.btn_hide_all:active:focus,
+.btn_hide_all.active:focus,
+.btn_hide_all.focus,
+.btn_hide_all:active.focus,
+.btn_hide_all.active.focus,
+.btn_inbox:focus,
+.btn_inbox:active:focus,
+.btn_inbox.active:focus,
+.btn_inbox.focus,
+.btn_inbox:active.focus,
+.btn_inbox.active.focus,
+.btn_list:focus,
+.btn_list:active:focus,
+.btn_list.active:focus,
+.btn_list.focus,
+.btn_list:active.focus,
+.btn_list.active.focus,
+.btn_note:focus,
+.btn_note:active:focus,
+.btn_note.active:focus,
+.btn_note.focus,
+.btn_note:active.focus,
+.btn_note.active.focus,
+.btn_update:focus,
+.btn_update:active:focus,
+.btn_update.active:focus,
+.btn_update.focus,
+.btn_update:active.focus,
+.btn_update.active.focus,
+.btn_reminder:focus,
+.btn_reminder:active:focus,
+.btn_reminder.active:focus,
+.btn_reminder.focus,
+.btn_reminder:active.focus,
+.btn_reminder.active.focus,
+.btn_save:focus,
+.btn_save:active:focus,
+.btn_save.active:focus,
+.btn_save.focus,
+.btn_save:active.focus,
+.btn_save.active.focus,
+.btn_send:focus,
+.btn_send:active:focus,
+.btn_send.active:focus,
+.btn_send.focus,
+.btn_send:active.focus,
+.btn_send.active.focus,
+.btn_upload:focus,
+.btn_upload:active:focus,
+.btn_upload.active:focus,
+.btn_upload.focus,
+.btn_upload:active.focus,
+.btn_upload.active.focus,
+.btn_user:focus,
+.btn_user:active:focus,
+.btn_user.active:focus,
+.btn_user.focus,
+.btn_user:active.focus,
+.btn_user.active.focus,
+.btn_users:focus,
+.btn_users:active:focus,
+.btn_users.active:focus,
+.btn_users.focus,
+.btn_users:active.focus,
+.btn_users.active.focus,
+.btn_waiting:focus,
+.btn_waiting:active:focus,
+.btn_waiting.active:focus,
+.btn_waiting.focus,
+.btn_waiting:active.focus,
+.btn_waiting.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus,
+.btn_default:hover,
+.btn_default:focus,
+.btn_default.focus,
+.btn_primary:hover,
+.btn_primary:focus,
+.btn_primary.focus,
+.btn_success:hover,
+.btn_success:focus,
+.btn_success.focus,
+.btn_info:hover,
+.btn_info:focus,
+.btn_info.focus,
+.btn_warning:hover,
+.btn_warning:focus,
+.btn_warning.focus,
+.btn_danger:hover,
+.btn_danger:focus,
+.btn_danger.focus,
+.btn_cancel:hover,
+.btn_cancel:focus,
+.btn_cancel.focus,
+.btn_close:hover,
+.btn_close:focus,
+.btn_close.focus,
+.btn_previous:hover,
+.btn_previous:focus,
+.btn_previous.focus,
+.btn_next:hover,
+.btn_next:focus,
+.btn_next.focus,
+.btn_refresh:hover,
+.btn_refresh:focus,
+.btn_refresh.focus,
+.btn_toggle:hover,
+.btn_toggle:focus,
+.btn_toggle.focus,
+.btn_add:hover,
+.btn_add:focus,
+.btn_add.focus,
+.btn_add_comment:hover,
+.btn_add_comment:focus,
+.btn_add_comment.focus,
+.btn_attachment:hover,
+.btn_attachment:focus,
+.btn_attachment.focus,
+.btn_arrow_left:hover,
+.btn_arrow_left:focus,
+.btn_arrow_left.focus,
+.btn_arrow_right:hover,
+.btn_arrow_right:focus,
+.btn_arrow_right.focus,
+.btn_calendar:hover,
+.btn_calendar:focus,
+.btn_calendar.focus,
+.btn_create:hover,
+.btn_create:focus,
+.btn_create.focus,
+.btn_create_pics:hover,
+.btn_create_pics:focus,
+.btn_create_pics.focus,
+.btn_delete:hover,
+.btn_delete:focus,
+.btn_delete.focus,
+.btn_display:hover,
+.btn_display:focus,
+.btn_display.focus,
+.btn_display_all:hover,
+.btn_display_all:focus,
+.btn_display_all.focus,
+.btn_driving:hover,
+.btn_driving:focus,
+.btn_driving.focus,
+.btn_dropbox:hover,
+.btn_dropbox:focus,
+.btn_dropbox.focus,
+.btn_edit:hover,
+.btn_edit:focus,
+.btn_edit.focus,
+.btn_email:hover,
+.btn_email:focus,
+.btn_email.focus,
+.btn_forum:hover,
+.btn_forum:focus,
+.btn_forum.focus,
+.btn_hide:hover,
+.btn_hide:focus,
+.btn_hide.focus,
+.btn_hide_all:hover,
+.btn_hide_all:focus,
+.btn_hide_all.focus,
+.btn_inbox:hover,
+.btn_inbox:focus,
+.btn_inbox.focus,
+.btn_list:hover,
+.btn_list:focus,
+.btn_list.focus,
+.btn_note:hover,
+.btn_note:focus,
+.btn_note.focus,
+.btn_update:hover,
+.btn_update:focus,
+.btn_update.focus,
+.btn_reminder:hover,
+.btn_reminder:focus,
+.btn_reminder.focus,
+.btn_save:hover,
+.btn_save:focus,
+.btn_save.focus,
+.btn_send:hover,
+.btn_send:focus,
+.btn_send.focus,
+.btn_upload:hover,
+.btn_upload:focus,
+.btn_upload.focus,
+.btn_user:hover,
+.btn_user:focus,
+.btn_user.focus,
+.btn_users:hover,
+.btn_users:focus,
+.btn_users.focus,
+.btn_waiting:hover,
+.btn_waiting:focus,
+.btn_waiting.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active,
+.btn_default:active,
+.btn_default.active,
+.btn_primary:active,
+.btn_primary.active,
+.btn_success:active,
+.btn_success.active,
+.btn_info:active,
+.btn_info.active,
+.btn_warning:active,
+.btn_warning.active,
+.btn_danger:active,
+.btn_danger.active,
+.btn_cancel:active,
+.btn_cancel.active,
+.btn_close:active,
+.btn_close.active,
+.btn_previous:active,
+.btn_previous.active,
+.btn_next:active,
+.btn_next.active,
+.btn_refresh:active,
+.btn_refresh.active,
+.btn_toggle:active,
+.btn_toggle.active,
+.btn_add:active,
+.btn_add.active,
+.btn_add_comment:active,
+.btn_add_comment.active,
+.btn_attachment:active,
+.btn_attachment.active,
+.btn_arrow_left:active,
+.btn_arrow_left.active,
+.btn_arrow_right:active,
+.btn_arrow_right.active,
+.btn_calendar:active,
+.btn_calendar.active,
+.btn_create:active,
+.btn_create.active,
+.btn_create_pics:active,
+.btn_create_pics.active,
+.btn_delete:active,
+.btn_delete.active,
+.btn_display:active,
+.btn_display.active,
+.btn_display_all:active,
+.btn_display_all.active,
+.btn_driving:active,
+.btn_driving.active,
+.btn_dropbox:active,
+.btn_dropbox.active,
+.btn_edit:active,
+.btn_edit.active,
+.btn_email:active,
+.btn_email.active,
+.btn_forum:active,
+.btn_forum.active,
+.btn_hide:active,
+.btn_hide.active,
+.btn_hide_all:active,
+.btn_hide_all.active,
+.btn_inbox:active,
+.btn_inbox.active,
+.btn_list:active,
+.btn_list.active,
+.btn_note:active,
+.btn_note.active,
+.btn_update:active,
+.btn_update.active,
+.btn_reminder:active,
+.btn_reminder.active,
+.btn_save:active,
+.btn_save.active,
+.btn_send:active,
+.btn_send.active,
+.btn_upload:active,
+.btn_upload.active,
+.btn_user:active,
+.btn_user.active,
+.btn_users:active,
+.btn_users.active,
+.btn_waiting:active,
+.btn_waiting.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -o-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn,
+.btn_default.disabled,
+.btn_default[disabled],
+fieldset[disabled] .btn_default,
+.btn_primary.disabled,
+.btn_primary[disabled],
+fieldset[disabled] .btn_primary,
+.btn_success.disabled,
+.btn_success[disabled],
+fieldset[disabled] .btn_success,
+.btn_info.disabled,
+.btn_info[disabled],
+fieldset[disabled] .btn_info,
+.btn_warning.disabled,
+.btn_warning[disabled],
+fieldset[disabled] .btn_warning,
+.btn_danger.disabled,
+.btn_danger[disabled],
+fieldset[disabled] .btn_danger,
+.btn_cancel.disabled,
+.btn_cancel[disabled],
+fieldset[disabled] .btn_cancel,
+.btn_close.disabled,
+.btn_close[disabled],
+fieldset[disabled] .btn_close,
+.btn_previous.disabled,
+.btn_previous[disabled],
+fieldset[disabled] .btn_previous,
+.btn_next.disabled,
+.btn_next[disabled],
+fieldset[disabled] .btn_next,
+.btn_refresh.disabled,
+.btn_refresh[disabled],
+fieldset[disabled] .btn_refresh,
+.btn_toggle.disabled,
+.btn_toggle[disabled],
+fieldset[disabled] .btn_toggle,
+.btn_add.disabled,
+.btn_add[disabled],
+fieldset[disabled] .btn_add,
+.btn_add_comment.disabled,
+.btn_add_comment[disabled],
+fieldset[disabled] .btn_add_comment,
+.btn_attachment.disabled,
+.btn_attachment[disabled],
+fieldset[disabled] .btn_attachment,
+.btn_arrow_left.disabled,
+.btn_arrow_left[disabled],
+fieldset[disabled] .btn_arrow_left,
+.btn_arrow_right.disabled,
+.btn_arrow_right[disabled],
+fieldset[disabled] .btn_arrow_right,
+.btn_calendar.disabled,
+.btn_calendar[disabled],
+fieldset[disabled] .btn_calendar,
+.btn_create.disabled,
+.btn_create[disabled],
+fieldset[disabled] .btn_create,
+.btn_create_pics.disabled,
+.btn_create_pics[disabled],
+fieldset[disabled] .btn_create_pics,
+.btn_delete.disabled,
+.btn_delete[disabled],
+fieldset[disabled] .btn_delete,
+.btn_display.disabled,
+.btn_display[disabled],
+fieldset[disabled] .btn_display,
+.btn_display_all.disabled,
+.btn_display_all[disabled],
+fieldset[disabled] .btn_display_all,
+.btn_driving.disabled,
+.btn_driving[disabled],
+fieldset[disabled] .btn_driving,
+.btn_dropbox.disabled,
+.btn_dropbox[disabled],
+fieldset[disabled] .btn_dropbox,
+.btn_edit.disabled,
+.btn_edit[disabled],
+fieldset[disabled] .btn_edit,
+.btn_email.disabled,
+.btn_email[disabled],
+fieldset[disabled] .btn_email,
+.btn_forum.disabled,
+.btn_forum[disabled],
+fieldset[disabled] .btn_forum,
+.btn_hide.disabled,
+.btn_hide[disabled],
+fieldset[disabled] .btn_hide,
+.btn_hide_all.disabled,
+.btn_hide_all[disabled],
+fieldset[disabled] .btn_hide_all,
+.btn_inbox.disabled,
+.btn_inbox[disabled],
+fieldset[disabled] .btn_inbox,
+.btn_list.disabled,
+.btn_list[disabled],
+fieldset[disabled] .btn_list,
+.btn_note.disabled,
+.btn_note[disabled],
+fieldset[disabled] .btn_note,
+.btn_update.disabled,
+.btn_update[disabled],
+fieldset[disabled] .btn_update,
+.btn_reminder.disabled,
+.btn_reminder[disabled],
+fieldset[disabled] .btn_reminder,
+.btn_save.disabled,
+.btn_save[disabled],
+fieldset[disabled] .btn_save,
+.btn_send.disabled,
+.btn_send[disabled],
+fieldset[disabled] .btn_send,
+.btn_upload.disabled,
+.btn_upload[disabled],
+fieldset[disabled] .btn_upload,
+.btn_user.disabled,
+.btn_user[disabled],
+fieldset[disabled] .btn_user,
+.btn_users.disabled,
+.btn_users[disabled],
+fieldset[disabled] .btn_users,
+.btn_waiting.disabled,
+.btn_waiting[disabled],
+fieldset[disabled] .btn_waiting {
+  cursor: not-allowed;
+  pointer-events: none;
+  -moz-opacity: 0.65;
+  -khtml-opacity: 0.65;
+  -webkit-opacity: 0.65;
+  opacity: 0.65;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65);
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+.btn-default,
+.btn_default,
+.btn_previous,
+.btn_next {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+.btn-primary,
+.btn_primary,
+.btn_refresh,
+.btn_toggle,
+.btn_add,
+.btn_add_comment,
+.btn_attachment,
+.btn_arrow_left,
+.btn_arrow_right,
+.btn_calendar,
+.btn_create,
+.btn_create_pics,
+.btn_delete,
+.btn_display,
+.btn_display_all,
+.btn_driving,
+.btn_dropbox,
+.btn_edit,
+.btn_email,
+.btn_forum,
+.btn_hide,
+.btn_hide_all,
+.btn_inbox,
+.btn_list,
+.btn_note,
+.btn_update,
+.btn_reminder,
+.btn_save,
+.btn_send,
+.btn_upload,
+.btn_user,
+.btn_users,
+.btn_waiting {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-primary .badge {
+  color: #428bca;
+  background-color: #ffffff;
+}
+.btn-success,
+.btn_success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+.btn-info,
+.btn_info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+.btn-warning,
+.btn_warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.btn-warning.disabled,
+.btn-warning[disabled],
+fieldset[disabled] .btn-warning,
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning.focus,
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warning:active,
+.btn-warning.disabled.active,
+.btn-warning[disabled].active,
+fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+.btn-danger,
+.btn_danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-danger.focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+.btn-link {
+  color: #428bca;
+  font-weight: normal;
+  border-radius: 0;
+}
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #cccccc;
+  text-decoration: none;
+}
+.btn-lg,
+.btn_lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.btn-sm,
+.btn_sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-xs,
+.btn_xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%;
+}
+.btn,
+.btn_default,
+.btn_primary,
+.btn_success,
+.btn_info,
+.btn_warning,
+.btn_danger,
+.btn_cancel,
+.btn_close,
+.btn_previous,
+.btn_next,
+.btn_refresh,
+.btn_toggle,
+.btn_add,
+.btn_add_comment,
+.btn_attachment,
+.btn_arrow_left,
+.btn_arrow_right,
+.btn_calendar,
+.btn_create,
+.btn_create_pics,
+.btn_delete,
+.btn_display,
+.btn_display_all,
+.btn_driving,
+.btn_dropbox,
+.btn_edit,
+.btn_email,
+.btn_forum,
+.btn_hide,
+.btn_hide_all,
+.btn_inbox,
+.btn_list,
+.btn_note,
+.btn_update,
+.btn_reminder,
+.btn_save,
+.btn_send,
+.btn_upload,
+.btn_user,
+.btn_users,
+.btn_waiting {
+  text-align: center;
+}
+.btn:before,
+.btn_default:before,
+.btn_primary:before,
+.btn_success:before,
+.btn_info:before,
+.btn_warning:before,
+.btn_danger:before,
+.btn_cancel:before,
+.btn_close:before,
+.btn_previous:before,
+.btn_next:before,
+.btn_refresh:before,
+.btn_toggle:before,
+.btn_add:before,
+.btn_add_comment:before,
+.btn_attachment:before,
+.btn_arrow_left:before,
+.btn_arrow_right:before,
+.btn_calendar:before,
+.btn_create:before,
+.btn_create_pics:before,
+.btn_delete:before,
+.btn_display:before,
+.btn_display_all:before,
+.btn_driving:before,
+.btn_dropbox:before,
+.btn_edit:before,
+.btn_email:before,
+.btn_forum:before,
+.btn_hide:before,
+.btn_hide_all:before,
+.btn_inbox:before,
+.btn_list:before,
+.btn_note:before,
+.btn_update:before,
+.btn_reminder:before,
+.btn_save:before,
+.btn_send:before,
+.btn_upload:before,
+.btn_user:before,
+.btn_users:before,
+.btn_waiting:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 5px;
+}
+.btn:after,
+.btn_default:after,
+.btn_primary:after,
+.btn_success:after,
+.btn_info:after,
+.btn_warning:after,
+.btn_danger:after,
+.btn_cancel:after,
+.btn_close:after,
+.btn_previous:after,
+.btn_next:after,
+.btn_refresh:after,
+.btn_toggle:after,
+.btn_add:after,
+.btn_add_comment:after,
+.btn_attachment:after,
+.btn_arrow_left:after,
+.btn_arrow_right:after,
+.btn_calendar:after,
+.btn_create:after,
+.btn_create_pics:after,
+.btn_delete:after,
+.btn_display:after,
+.btn_display_all:after,
+.btn_driving:after,
+.btn_dropbox:after,
+.btn_edit:after,
+.btn_email:after,
+.btn_forum:after,
+.btn_hide:after,
+.btn_hide_all:after,
+.btn_inbox:after,
+.btn_list:after,
+.btn_note:after,
+.btn_update:after,
+.btn_reminder:after,
+.btn_save:after,
+.btn_send:after,
+.btn_upload:after,
+.btn_user:after,
+.btn_users:after,
+.btn_waiting:after {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 5px;
+}
+.btn_primary,
+.btn_refresh,
+.btn_toggle,
+.btn_add,
+.btn_add_comment,
+.btn_attachment,
+.btn_arrow_left,
+.btn_arrow_right,
+.btn_calendar,
+.btn_create,
+.btn_create_pics,
+.btn_delete,
+.btn_display,
+.btn_display_all,
+.btn_driving,
+.btn_dropbox,
+.btn_edit,
+.btn_email,
+.btn_forum,
+.btn_hide,
+.btn_hide_all,
+.btn_inbox,
+.btn_list,
+.btn_note,
+.btn_update,
+.btn_reminder,
+.btn_save,
+.btn_send,
+.btn_upload,
+.btn_user,
+.btn_users,
+.btn_waiting {
+  /* Firefox */
+  /* Safari, Chrome */
+  /* CSS3 */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 0 auto;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 10px auto;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.btn_primary:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #fc7001;
+}
+.btn_primary.disabled {
+  border: 1px solid #fc7001;
+}
+.btn_success {
+  /* Firefox */
+  /* Safari, Chrome */
+  /* CSS3 */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #199900;
+}
+.btn_cancel,
+.btn_close {
+  background-color: #f2f2f2;
+  border: 1px solid #cccccc;
+  color: #48575f;
+}
+.btn_cancel:before,
+.btn_close:before {
+  content: "\f00d";
+}
+.btn_previous:before {
+  content: "\f177";
+}
+.btn_next:after {
+  content: "\f178";
+}
+.btn_refresh:before,
+.btn_toggle:before {
+  content: "\f021";
+}
+.btn_add:before {
+  content: "\f055";
+}
+.btn_add_comment:before {
+  content: "\f075";
+}
+.btn_attachment:before {
+  content: "\f0c6";
+}
+.btn_arrow_left:before {
+  content: "\f177";
+  font-weight: bold;
+}
+.btn_arrow_right:after {
+  content: "\f178";
+  font-weight: bold;
+}
+.btn_calendar:before {
+  content: "\f073";
+}
+.btn_create:before {
+  content: "\f00c";
+}
+.btn_create_pics:before {
+  content: "\f03e";
+}
+.btn_delete:before {
+  content: "\f056";
+}
+.btn_display:before,
+.btn_display_all:before {
+  content: "\f06e";
+}
+.btn_driving:before {
+  content: "\f1b9";
+}
+.btn_dropbox:before {
+  content: "\f16b";
+}
+.btn_edit:before {
+  content: "\f040";
+}
+.btn_email:before {
+  content: "\f0e0";
+}
+.btn_forum:before {
+  content: "\f0e6";
+}
+.btn_hide:before,
+.btn_hide_all:before {
+  content: "\f070";
+}
+.btn_inbox:before {
+  content: "\f01c";
+}
+.btn_list:before {
+  content: "\f03a";
+}
+.btn_note:before {
+  content: "\f044";
+}
+.btn_update:before {
+  content: "\f040";
+}
+.btn_reminder:before {
+  content: "\f0f3";
+}
+.btn_save:before {
+  content: "\f0c7";
+}
+.btn_send:before {
+  content: "\f1d8";
+}
+.btn_upload:before {
+  content: "\f093";
+}
+.btn_user:before {
+  content: "\f007";
+}
+.btn_users:before {
+  content: "\f0c0";
+}
+.btn_waiting:before {
+  content: "\f160";
+}

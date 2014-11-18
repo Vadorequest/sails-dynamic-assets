@@ -1,0 +1,60 @@
+@import "../loader";
+
+// Add bootstrap badges colors, removed in 3.0 but we like them.
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.badge-active {
+  background-color: @orange;
+}
+
+.badge-error {
+  background-color: #b94a48;
+
+  &:hover {
+    background-color: #953b39;
+  }
+}
+
+.badge-warning {
+  background-color: #f89406;
+
+  &:hover {
+    background-color: #c67605;
+  }
+}
+
+.badge-success {
+  background-color: #468847;
+
+  &:hover {
+    background-color: #356635;
+  }
+}
+
+.badge-info {
+  background-color: #3a87ad;
+
+  &:hover {
+    background-color: #2d6987;
+  }
+}
+
+.badge-inverse {
+  background-color: #333333;
+
+  &:hover {
+    background-color: #1a1a1a;
+  }
+}
+
+.badge-coach {
+  background-color: @black;
+
+  &:hover {
+    background-color: @gray-darker;
+  }
+}
